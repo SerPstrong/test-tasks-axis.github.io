@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, "sans-serif";
+}
+
+.rule {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 875px;
+    height: 83px;
+}
+
+.number-input {
+    position: absolute;
+    width: 40px;
+    text-align: center;
+    font-size: 45px;
+    outline: none;
+}
+
+.number-input:focus {
+    box-shadow: 0px 0px 25px 8px #000;
+    border: none;
+}
+
+.input--error {
+    color: red;
+}
+
+.span---error {
+    background-color: orange;
+}
+
+.expression {
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 90px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 65px;
+}
+
+.equallyInput {
+    padding: 0;
+    width: 70px;
+    font-size: 65px;
+    outline: none;
+}
+
+.equallyInput:focus {
+    box-shadow: 0px 0px 25px 8px #000;
+}
+
+.number-input[type="text"]:disabled {
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+
+.equallyInput[type="text"]:disabled {
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+
+.cnvs-container {
+    position: relative;
+    margin: 0 auto;
+    width: 805px;
+}
+
+.cnvs {
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -45px;
+    width: 800px;
+}
